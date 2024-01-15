@@ -1,0 +1,31 @@
+Adding 5------
+5 0 -->
+Adding 3------
+5 1 -->3 0 5-->
+Adding 6------
+5 0 -->3 0 5-->6 0 5-->
+Adding 2------
+5 1 -->3 1 5-->6 0 5-->2 0 3-->
+Adding 4------
+5 1 -->3 0 5-->6 0 5-->2 0 3-->4 0 3-->
+Adding 1: testing LL rotating around root. node that will become new root has 2 children ------
+3 0 -->2 1 3-->5 0 3-->1 0 2-->4 0 5-->6 0 5-->
+Adding 8 ------
+3 -1 -->2 1 3-->5 -1 3-->1 0 2-->4 0 5-->6 -1 5-->8 0 6-->
+Adding 10: testing RR rotating around non-root. node that will become new root has 1 child ------
+3 -1 -->2 1 3-->5 -1 3-->1 0 2-->4 0 5-->8 0 5-->6 0 8-->10 0 8-->
+
+Constructing a new tree with 8, 5, 10 and 7 ------
+8 1 -->5 -1 8-->10 0 8-->7 0 5-->
+Adding 6: RL The violation is not at root --------
+8 1 -->6 0 8-->10 0 8-->5 0 6-->7 0 6-->
+
+Constructing a new tree with 8 and 4 ------
+8 1 -->4 0 8-->
+Adding 7: LR. The violation is at root  --------
+7 0 -->4 0 7-->8 0 7-->
+
+Constructing a new tree with 20, 10, 30, 7, 15, 25, 40, 22, 26, 35 and 50  ------
+20 -1 -->10 0 20-->30 0 20-->7 0 10-->15 0 10-->25 0 30-->40 0 30-->22 0 25-->26 0 25-->35 0 40-->50 0 40-->
+Adding 27: RL. The violation is at root  --------
+25 0 -->20 1 25-->30 0 25-->10 0 20-->22 0 20-->26 -1 30-->40 0 30-->7 0 10-->15 0 10-->27 0 26-->35 0 40-->50 0 40-->

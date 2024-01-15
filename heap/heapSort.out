@@ -1,0 +1,32 @@
+testing max_heap rooted at index 3
+11 3 4 8 7 19 20 2 5 1 
+
+testing max_heap rooted at index 1
+11 8 4 5 7 19 20 2 3 1 
+
+testing build_max_heap
+20 8 19 5 7 11 4 2 3 1 
+
+testing heapSort
+1 2 3 4 5 7 8 9 10 11 
+
+testing heapSort
+1 2 
+
+testing insert
+20 15 19 9 8 11 4 2 3 1 5 
+
+testing exception from insert() - The array is full
+The array is full
+
+testing remove - bubble down
+16 8 12 4 7 10 2 3 1 
+
+testing remove - bubble up
+100 50 80 15 14 60 20 13 5 10 9 
+
+testing exception from find() - The element doesn't exist
+The element doesn't exist
+
+testing exception from remove() - The index to be removed is invalid
+The index to be removed is invalid

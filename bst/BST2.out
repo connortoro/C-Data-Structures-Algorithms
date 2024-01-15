@@ -1,0 +1,53 @@
+b1.inOrderPrint()
+12-->16-->22-->24-->27-->27-->28-->30-->31-->36-->36-->37-->41-->50-->60-->63-->63-->64-->68-->68-->69-->73-->78-->83-->84-->87-->87-->91-->93-->94-->
+b2.inOrderPrint()
+12-->16-->22-->24-->27-->27-->28-->30-->31-->36-->36-->37-->41-->50-->60-->63-->63-->64-->68-->68-->69-->73-->78-->83-->84-->87-->87-->91-->93-->94-->
+
+b1.preOrderPrint()
+84-->78-->16-->12-->36-->22-->28-->27-->24-->27-->30-->31-->50-->41-->37-->36-->63-->60-->64-->63-->73-->69-->68-->68-->83-->87-->94-->87-->93-->91-->
+
+b1.postOrderPrint()
+12-->24-->27-->27-->31-->30-->28-->22-->36-->37-->41-->60-->63-->68-->68-->69-->73-->64-->63-->50-->36-->16-->83-->78-->91-->93-->87-->94-->87-->84-->
+
+The max length is 11
+The min length is 3
+The total number of nodes is 30
+The total number of even nodes is 16
+Searching n using Recursion 36
+Searching n using Iteration 36
+Searching 1000 using Recursion 0
+Searching 1000 using Iteration 0
+
+
+make a new tree
+testing BFTprint()
+8-->5-->20-->16-->10-->
+testing DFTprint()
+8-->5-->20-->16-->10-->
+in order print
+5-->8-->10-->16-->20-->
+testing removing a node with only left child.
+5-->8-->10-->16-->
+
+make a new tree
+5-->8-->20-->
+testing removing a node with no children.
+5-->8-->
+
+make a new tree
+5-->8-->20-->22-->25-->
+testing removing a node with only right child.
+5-->8-->22-->25-->
+
+make a new tree
+5-->8-->10-->16-->20-->30-->
+testing removing a node with 2 children. the largest value in the left subtree is the direct left child of the node to be deleted
+5-->8-->10-->16-->30-->
+
+make a new tree
+5-->8-->10-->16-->17-->19-->20-->30-->
+testing removing a node with 2 children. the largest value in the left subtree is NOT the direct left child of the node to be deleted
+5-->8-->10-->16-->17-->19-->30-->
+
+Destructor is being called
+
